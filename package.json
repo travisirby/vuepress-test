@@ -1,0 +1,24 @@
+n{
+  "name": "vuepress-test",
+  "version": "1.0.0",
+  "description": "* [Document Home](README.md) * [General](general/README.md)   * [Packet History](general/packet-history.md)   * [Price & Billing](general/pricing.md)   * [The Locations](general/facilities-edge/README.md)     * [Facility Certifications](general/facilities-edge/facility-certifications.md)   * [High Availability](general/high-availability.md)   * [On Premise Deployment](general/on-premise-deployment.md) * [Customer Portal](customer-portal/README.md)   * [Device Deployment](customer-portal/device-deployment/README.md)     * [On Demand](customer-portal/device-deployment/on-demand.md)     * [Spot Market](customer-portal/device-deployment/spot-market.md)     * [Batch](customer-portal/device-deployment/batch.md)     * [Reserved](customer-portal/device-deployment/reserved.md)   * [Organization: Projects & Teams](customer-portal/organization-and-teams/README.md)     * [API Token](customer-portal/organization-and-teams/api-token.md)     * [SSH Key](customer-portal/organization-and-teams/ssh-key.md)   * [Network Features](customer-portal/network-requests/README.md)     * [BGP: Global](customer-portal/network-requests/bgp-global.md)     * [BGP: Local](customer-portal/network-requests/bgp-local.md)     * [WireGuard Site to Site VPN](customer-portal/network-requests/wireguard-site-to-site-vpn.md)     * [Custom Subnet Size](customer-portal/network-requests/custom-subnet-size.md)     * [Doorman](customer-portal/network-requests/doorman.md)     * [Layer2](customer-portal/network-requests/layer2.md)     * [Backend Transfer](customer-portal/network-requests/backend-transfer.md)     * [IPv4: Elastic](customer-portal/network-requests/ipv4-elastic-ip.md)     * [IPv4: Management IP](customer-portal/network-requests/ipv4-management-ip.md)     * [IPv4: Global Anycast](customer-portal/network-requests/ipv4-global-anycast.md)     * [IPv6](customer-portal/network-requests/ipv6.md) * [Storage](storage/README.md)   * [Elastic Block Storage](storage/elastic-block-storage.md)   * [Custom Partitioning & RAID](storage/custom-partitioning-and-raid-cpr.md)   * [Software RAID \\(zpool\\)](storage/software-raid-zpool.md) * [The Metals](the-metals/README.md)   * [GPU](the-metals/gpu.md)   * [Accelerator](the-metals/accelerator.md)   * [Memory](the-metals/memory.md)   * [Storage](the-metals/storage.md)   * [Compute](the-metals/compute.md)   * [Tiny](the-metals/tiny.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travisirby/vuepress-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/travisirby/vuepress-test/issues"
+  },
+  "homepage": "https://github.com/travisirby/vuepress-test#readme",
+  "dependencies": {
+    "vuepress": "^0.8.4"
+  }
+}
